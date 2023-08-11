@@ -5,6 +5,7 @@
  * main - main block
  * Description: check if the number positive, negative or zero
  * Return: 0
+ */
 
 /* more headers goes there */
 
