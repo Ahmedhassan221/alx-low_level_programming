@@ -15,7 +15,7 @@ int main(void)
 		c++;
 	}
 	c = 'a';
-	while (c <= f)
+	while (c <= 'f')
 	{
 		putchar(c);
 		c++;
