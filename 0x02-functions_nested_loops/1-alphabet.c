@@ -1,18 +1,20 @@
 #include "main.h"
+
 /**
- * main -main block
- * Description: pront all letters in lowercase
- * Return: 0
-*/
+ * print_alphabet - Entry point
+ * Return:0
+ */
 
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void);
-	int c;
+	char c = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (c <= 'z')
+	{
 		_putchar(c);
+		c++;
+
+	}
 	_putchar('\n');
 
-	return (0);
 }
